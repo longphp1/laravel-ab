@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-08T03:05:08.219Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.64" etag="9dVgQOfHNKUk4PcsAUTm" version="14.8.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-07-08T08:53:39.750Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.64" etag="T8kJKLWTtrQcyoqRkPhK" version="14.8.4" type="github" pages="2">
   <diagram id="dbFJYI5qDaaArH37SR7d" name="Page-1">
     <mxGraphModel dx="2249" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -279,6 +279,9 @@
         <mxCell id="mz625ji8MOdig7dAiCg4-7" value="非关联SKU" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="mz625ji8MOdig7dAiCg4-1">
           <mxGeometry x="140" y="200" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="_FO-5QkkeFzPglMG7nLQ-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="mz625ji8MOdig7dAiCg4-1" source="mz625ji8MOdig7dAiCg4-9" target="_FO-5QkkeFzPglMG7nLQ-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="mz625ji8MOdig7dAiCg4-9" value="关联SKU" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="mz625ji8MOdig7dAiCg4-1">
           <mxGeometry x="540" y="200" width="120" height="60" as="geometry" />
         </mxCell>
@@ -437,7 +440,7 @@
         <mxCell id="mz625ji8MOdig7dAiCg4-91" value="是" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="mz625ji8MOdig7dAiCg4-1">
           <mxGeometry x="132.5" y="1770" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="_FO-5QkkeFzPglMG7nLQ-0" value="从OMS库的&lt;font color=&quot;#ff6666&quot;&gt;oms_refund&lt;/font&gt;，oms_order等表获取数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="mz625ji8MOdig7dAiCg4-1">
+        <mxCell id="_FO-5QkkeFzPglMG7nLQ-0" value="从OMS库的&lt;font color=&quot;#ff6666&quot;&gt;oms_refund&lt;/font&gt;，oms_refund_sku,oms_order等表获取数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="mz625ji8MOdig7dAiCg4-1">
           <mxGeometry x="-10" y="720" width="280" height="80" as="geometry" />
         </mxCell>
         <mxCell id="_FO-5QkkeFzPglMG7nLQ-6" value="" style="shape=waypoint;size=6;pointerEvents=1;points=[];fillColor=#ffffff;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;" vertex="1" parent="mz625ji8MOdig7dAiCg4-1">
@@ -463,6 +466,201 @@
         </mxCell>
         <mxCell id="_FO-5QkkeFzPglMG7nLQ-20" value="退款单需新增服务费，清关费，其他费项三个字段数据" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FF6666;" vertex="1" parent="mz625ji8MOdig7dAiCg4-1">
           <mxGeometry x="230" y="1840" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_FO-5QkkeFzPglMG7nLQ-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="mz625ji8MOdig7dAiCg4-1" source="_FO-5QkkeFzPglMG7nLQ-25" target="_FO-5QkkeFzPglMG7nLQ-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_FO-5QkkeFzPglMG7nLQ-25" value="&lt;span style=&quot;color: rgb(51 , 51 , 51) ; font-family: , &amp;#34;pingfang sc&amp;#34; , sans-serif ; font-size: 13px&quot;&gt;填写待退运费（非必填）&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="mz625ji8MOdig7dAiCg4-1">
+          <mxGeometry x="660" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_FO-5QkkeFzPglMG7nLQ-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="mz625ji8MOdig7dAiCg4-1" source="_FO-5QkkeFzPglMG7nLQ-27" target="_FO-5QkkeFzPglMG7nLQ-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_FO-5QkkeFzPglMG7nLQ-27" value="&lt;span style=&quot;color: rgb(51 , 51 , 51) ; font-family: , &amp;#34;pingfang sc&amp;#34; , sans-serif ; font-size: 13px&quot;&gt;选择退款原因并勾选对应SKU&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="mz625ji8MOdig7dAiCg4-1">
+          <mxGeometry x="660" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_FO-5QkkeFzPglMG7nLQ-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="mz625ji8MOdig7dAiCg4-1" source="_FO-5QkkeFzPglMG7nLQ-29" target="_FO-5QkkeFzPglMG7nLQ-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_FO-5QkkeFzPglMG7nLQ-29" value="是否保存勾选？" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="mz625ji8MOdig7dAiCg4-1">
+          <mxGeometry x="680" y="620" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_FO-5QkkeFzPglMG7nLQ-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="mz625ji8MOdig7dAiCg4-1" source="_FO-5QkkeFzPglMG7nLQ-31" target="_FO-5QkkeFzPglMG7nLQ-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_FO-5QkkeFzPglMG7nLQ-31" value="&lt;span style=&quot;color: rgb(51 , 51 , 51) ; font-family: , &amp;#34;pingfang sc&amp;#34; , sans-serif ; font-size: 13px&quot;&gt;根据客服勾选信息拉取SKU信息并展示&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="mz625ji8MOdig7dAiCg4-1">
+          <mxGeometry x="660" y="790" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_FO-5QkkeFzPglMG7nLQ-33" value="是" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;" vertex="1" parent="mz625ji8MOdig7dAiCg4-1">
+          <mxGeometry x="720" y="720" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_FO-5QkkeFzPglMG7nLQ-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="mz625ji8MOdig7dAiCg4-1" source="_FO-5QkkeFzPglMG7nLQ-34" target="_FO-5QkkeFzPglMG7nLQ-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_FO-5QkkeFzPglMG7nLQ-34" value="填写各项sku退款金额，以及填写运费，清关费，服务费，其他费用等" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="mz625ji8MOdig7dAiCg4-1">
+          <mxGeometry x="660" y="930" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_FO-5QkkeFzPglMG7nLQ-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="mz625ji8MOdig7dAiCg4-1" source="_FO-5QkkeFzPglMG7nLQ-36" target="_FO-5QkkeFzPglMG7nLQ-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_FO-5QkkeFzPglMG7nLQ-36" value="" style="shape=waypoint;size=6;pointerEvents=1;points=[];fillColor=#ffffff;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;rounded=1;" vertex="1" parent="mz625ji8MOdig7dAiCg4-1">
+          <mxGeometry x="560" y="440" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_FO-5QkkeFzPglMG7nLQ-38" value="" style="shape=waypoint;size=6;pointerEvents=1;points=[];fillColor=#ffffff;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;rounded=1;" vertex="1" parent="mz625ji8MOdig7dAiCg4-1">
+          <mxGeometry x="360" y="440" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_FO-5QkkeFzPglMG7nLQ-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="mz625ji8MOdig7dAiCg4-1" source="_FO-5QkkeFzPglMG7nLQ-40" target="_FO-5QkkeFzPglMG7nLQ-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_FO-5QkkeFzPglMG7nLQ-40" value="系统创建退款流程，黑名单，导入退款单，OC缺货取消订单退款" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="mz625ji8MOdig7dAiCg4-1">
+          <mxGeometry x="1121" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_FO-5QkkeFzPglMG7nLQ-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="mz625ji8MOdig7dAiCg4-1" source="_FO-5QkkeFzPglMG7nLQ-41" target="_FO-5QkkeFzPglMG7nLQ-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_FO-5QkkeFzPglMG7nLQ-41" value="创建退款单" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="mz625ji8MOdig7dAiCg4-1">
+          <mxGeometry x="1121" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_FO-5QkkeFzPglMG7nLQ-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="mz625ji8MOdig7dAiCg4-1" source="_FO-5QkkeFzPglMG7nLQ-43">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1041" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_FO-5QkkeFzPglMG7nLQ-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="mz625ji8MOdig7dAiCg4-1" source="_FO-5QkkeFzPglMG7nLQ-43" target="_FO-5QkkeFzPglMG7nLQ-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_FO-5QkkeFzPglMG7nLQ-43" value="是否可以生成退款单" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="mz625ji8MOdig7dAiCg4-1">
+          <mxGeometry x="1121" y="380" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_FO-5QkkeFzPglMG7nLQ-45" value="结束" style="ellipse;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="mz625ji8MOdig7dAiCg4-1">
+          <mxGeometry x="920" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_FO-5QkkeFzPglMG7nLQ-47" value="否" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;" vertex="1" parent="mz625ji8MOdig7dAiCg4-1">
+          <mxGeometry x="1060" y="400" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_FO-5QkkeFzPglMG7nLQ-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="mz625ji8MOdig7dAiCg4-1" source="_FO-5QkkeFzPglMG7nLQ-48" target="_FO-5QkkeFzPglMG7nLQ-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_FO-5QkkeFzPglMG7nLQ-48" value="计算出该订单可退金额" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="mz625ji8MOdig7dAiCg4-1">
+          <mxGeometry x="1121" y="550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_FO-5QkkeFzPglMG7nLQ-50" value="是" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;" vertex="1" parent="mz625ji8MOdig7dAiCg4-1">
+          <mxGeometry x="1180" y="480" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_FO-5QkkeFzPglMG7nLQ-51" value="这块变动，在原有的商品金额，运费，上新增判断服务费，清关费，其他费用三个退款款项的计算" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FF6666;" vertex="1" parent="mz625ji8MOdig7dAiCg4-1">
+          <mxGeometry x="1260" y="565" width="210" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_FO-5QkkeFzPglMG7nLQ-58" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="mz625ji8MOdig7dAiCg4-1" source="_FO-5QkkeFzPglMG7nLQ-52" target="_FO-5QkkeFzPglMG7nLQ-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_FO-5QkkeFzPglMG7nLQ-52" value="计算当前sku待退金额" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="mz625ji8MOdig7dAiCg4-1">
+          <mxGeometry x="1121" y="690" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_FO-5QkkeFzPglMG7nLQ-64" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="mz625ji8MOdig7dAiCg4-1" source="_FO-5QkkeFzPglMG7nLQ-57" target="_FO-5QkkeFzPglMG7nLQ-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_FO-5QkkeFzPglMG7nLQ-68" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="_FO-5QkkeFzPglMG7nLQ-64">
+          <mxGeometry x="0.7051" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_FO-5QkkeFzPglMG7nLQ-66" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="mz625ji8MOdig7dAiCg4-1" source="_FO-5QkkeFzPglMG7nLQ-57" target="_FO-5QkkeFzPglMG7nLQ-65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_FO-5QkkeFzPglMG7nLQ-57" value="判断将退金额&amp;gt;=剩余可退金额" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="mz625ji8MOdig7dAiCg4-1">
+          <mxGeometry x="1086.5" y="820" width="189" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_FO-5QkkeFzPglMG7nLQ-101" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="mz625ji8MOdig7dAiCg4-1" source="_FO-5QkkeFzPglMG7nLQ-59" target="_FO-5QkkeFzPglMG7nLQ-100">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="980" y="1250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_FO-5QkkeFzPglMG7nLQ-59" value="&lt;p style=&quot;margin: 0px ; color: rgb(51 , 51 , 51) ; font-family: , &amp;#34;pingfang sc&amp;#34; , sans-serif ; font-size: 13px&quot;&gt;1. 当前创建的退款单&lt;span style=&quot;font-family: , &amp;#34;pingfang sc semibold&amp;#34; , &amp;#34;pingfang sc&amp;#34; , sans-serif ; color: rgb(217 , 0 , 27)&quot;&gt;是&lt;/span&gt;订单最后一笔退款&lt;/p&gt;&lt;p style=&quot;margin: 0px ; color: rgb(51 , 51 , 51) ; font-family: , &amp;#34;pingfang sc&amp;#34; , sans-serif ; font-size: 13px&quot;&gt;2. 退款模板选择&lt;span style=&quot;font-family: , &amp;#34;pingfang sc semibold&amp;#34; , &amp;#34;pingfang sc&amp;#34; , sans-serif ; color: rgb(217 , 0 , 27)&quot;&gt;不关联SKU模板&lt;/span&gt;&lt;/p&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="mz625ji8MOdig7dAiCg4-1">
+          <mxGeometry x="899" y="960" width="161" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_FO-5QkkeFzPglMG7nLQ-63" value="" style="shape=waypoint;size=6;pointerEvents=1;points=[];fillColor=#ffffff;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;rounded=1;" vertex="1" parent="mz625ji8MOdig7dAiCg4-1">
+          <mxGeometry x="959.5" y="940" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_FO-5QkkeFzPglMG7nLQ-71" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="mz625ji8MOdig7dAiCg4-1" source="_FO-5QkkeFzPglMG7nLQ-65" target="_FO-5QkkeFzPglMG7nLQ-70">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_FO-5QkkeFzPglMG7nLQ-75" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="mz625ji8MOdig7dAiCg4-1" source="_FO-5QkkeFzPglMG7nLQ-65" target="_FO-5QkkeFzPglMG7nLQ-74">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_FO-5QkkeFzPglMG7nLQ-65" value="订单SKU是否全部取消？" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="mz625ji8MOdig7dAiCg4-1">
+          <mxGeometry x="1086.5" y="960" width="189" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_FO-5QkkeFzPglMG7nLQ-69" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mz625ji8MOdig7dAiCg4-1">
+          <mxGeometry x="993.5" y="938" as="geometry">
+            <mxPoint x="189" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_FO-5QkkeFzPglMG7nLQ-84" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="mz625ji8MOdig7dAiCg4-1" source="_FO-5QkkeFzPglMG7nLQ-70" target="_FO-5QkkeFzPglMG7nLQ-77">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1181" y="1210" />
+              <mxPoint x="1181" y="1210" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_FO-5QkkeFzPglMG7nLQ-70" value="&lt;div&gt;1. 当前创建的退款单是订单最后一笔退款&lt;/div&gt;&lt;div&gt;&lt;span&gt;2. 退款模板选择关联SKU模板&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="mz625ji8MOdig7dAiCg4-1">
+          <mxGeometry x="1071.5" y="1109" width="219" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_FO-5QkkeFzPglMG7nLQ-72" value="&lt;span style=&quot;text-align: center&quot;&gt;判断将退金额=剩余可退金额&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="mz625ji8MOdig7dAiCg4-1">
+          <mxGeometry x="1190" y="1040" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_FO-5QkkeFzPglMG7nLQ-73" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="mz625ji8MOdig7dAiCg4-1">
+          <mxGeometry x="1150" y="1040" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_FO-5QkkeFzPglMG7nLQ-97" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.375;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="mz625ji8MOdig7dAiCg4-1" source="_FO-5QkkeFzPglMG7nLQ-74" target="_FO-5QkkeFzPglMG7nLQ-88">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_FO-5QkkeFzPglMG7nLQ-74" value="&lt;p style=&quot;margin: 0px ; color: rgb(51 , 51 , 51) ; font-family: , &amp;#34;pingfang sc&amp;#34; , sans-serif ; font-size: 13px&quot;&gt;1. 当前创建的退款单&lt;span style=&quot;font-family: , &amp;#34;pingfang sc semibold&amp;#34; , &amp;#34;pingfang sc&amp;#34; , sans-serif ; color: rgb(217 , 0 , 27)&quot;&gt;不是&lt;/span&gt;订单最后一笔退款&lt;/p&gt;&lt;p style=&quot;margin: 0px ; color: rgb(51 , 51 , 51) ; font-family: , &amp;#34;pingfang sc&amp;#34; , sans-serif ; font-size: 13px&quot;&gt;2. 退款模板选择&lt;span style=&quot;font-family: , &amp;#34;pingfang sc semibold&amp;#34; , &amp;#34;pingfang sc&amp;#34; , sans-serif ; color: rgb(217 , 0 , 27)&quot;&gt;关联SKU模板&lt;/span&gt;&lt;/p&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="mz625ji8MOdig7dAiCg4-1">
+          <mxGeometry x="1390" y="960" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_FO-5QkkeFzPglMG7nLQ-76" value="" style="shape=table;html=1;whiteSpace=wrap;startSize=0;container=1;collapsible=0;childLayout=tableLayout;" vertex="1" parent="mz625ji8MOdig7dAiCg4-1">
+          <mxGeometry x="1001" y="1230" width="420" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_FO-5QkkeFzPglMG7nLQ-77" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_FO-5QkkeFzPglMG7nLQ-76">
+          <mxGeometry width="420" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_FO-5QkkeFzPglMG7nLQ-78" value="商品金额" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" vertex="1" parent="_FO-5QkkeFzPglMG7nLQ-77">
+          <mxGeometry width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_FO-5QkkeFzPglMG7nLQ-86" value="商品税" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" vertex="1" parent="_FO-5QkkeFzPglMG7nLQ-77">
+          <mxGeometry x="60" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_FO-5QkkeFzPglMG7nLQ-79" value="运费" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" vertex="1" parent="_FO-5QkkeFzPglMG7nLQ-77">
+          <mxGeometry x="120" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_FO-5QkkeFzPglMG7nLQ-85" value="运费税" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" vertex="1" parent="_FO-5QkkeFzPglMG7nLQ-77">
+          <mxGeometry x="180" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_FO-5QkkeFzPglMG7nLQ-80" value="清关费" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;labelBorderColor=none;labelBackgroundColor=#FF6666;" vertex="1" parent="_FO-5QkkeFzPglMG7nLQ-77">
+          <mxGeometry x="240" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_FO-5QkkeFzPglMG7nLQ-81" value="服务费" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;labelBorderColor=none;labelBackgroundColor=#FF6666;" vertex="1" parent="_FO-5QkkeFzPglMG7nLQ-77">
+          <mxGeometry x="300" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_FO-5QkkeFzPglMG7nLQ-82" value="其他费用" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;labelBorderColor=none;labelBackgroundColor=#FF6666;" vertex="1" parent="_FO-5QkkeFzPglMG7nLQ-77">
+          <mxGeometry x="360" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_FO-5QkkeFzPglMG7nLQ-87" value="" style="shape=table;html=1;whiteSpace=wrap;startSize=0;container=1;collapsible=0;childLayout=tableLayout;" vertex="1" parent="mz625ji8MOdig7dAiCg4-1">
+          <mxGeometry x="1480" y="1119" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_FO-5QkkeFzPglMG7nLQ-88" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_FO-5QkkeFzPglMG7nLQ-87">
+          <mxGeometry width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_FO-5QkkeFzPglMG7nLQ-89" value="商品金额" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" vertex="1" parent="_FO-5QkkeFzPglMG7nLQ-88">
+          <mxGeometry width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_FO-5QkkeFzPglMG7nLQ-90" value="商品税" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" vertex="1" parent="_FO-5QkkeFzPglMG7nLQ-88">
+          <mxGeometry x="60" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_FO-5QkkeFzPglMG7nLQ-100" value="" style="shape=waypoint;size=6;pointerEvents=1;points=[];fillColor=#ffffff;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;rounded=1;" vertex="1" parent="mz625ji8MOdig7dAiCg4-1">
+          <mxGeometry x="980" y="1230" width="40" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
